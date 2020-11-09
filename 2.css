@@ -1,0 +1,751 @@
+
+body{
+	  font-family: "Montserrat";
+}
+a{
+	text-decoration:none;
+}
+.sticky{
+	position: fixed;
+	top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
+	z-index: 101;
+	width:100%; 
+	height: 140px;
+	margin-top: 40px;
+	background-color: white;
+}
+.mainlogo{
+	float:left;
+	margin-left: 150px;
+	width: 300px;
+}
+.shapka1{
+	height:50px;
+	margin-left: 550px;
+	float: left;
+}
+.podshapka,.podshapka2{
+	width: 50px;
+	height:50px;
+	margin-left: 50px;
+	float: left;
+}
+.podshapka2{
+	width: 70px;
+	}
+
+/*ПОРТФОЛИО*/
+.PORTFOLIO{
+margin-top: 300px;
+width:100%; 
+height: 570.5px;
+}
+.button1{
+	background-color: green;
+	color: white;
+	width: 200px;
+	height: 50px; 
+	border-radius: 30px;
+	margin-top: 70px;
+	border: none;
+
+}
+ .button1:hover{
+	background-color: white;
+	color:black;
+}
+.porttxt{
+	width: 100%;
+	height: 530px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(title/Background.png);
+}
+.portfoliotxt{
+	display: block;
+	font-size: 40pt;
+	color:white;
+}
+.porttxt:hover{
+	background-image: url(title/BackgroundHover.png);
+}
+.portfolioproin{
+	color:grey;
+	 font-size: 18pt;
+	 text-align: center;
+}
+.ProfService{
+	height: 265px;
+	margin-left: 150px;
+}
+.profserv{
+	 margin-top:25px; 
+	 text-align: center;
+	 font-weight: bolder;
+	  font-size: 30pt
+}
+.servfotoimg{
+	width:54px; 
+	height:48px;
+}
+.servicefoto1{
+	width: 280px;
+	height: 165px;
+	margin-top:100px;
+	float: left;
+	text-align: center;
+}
+.servicefoto{
+	margin-left: 85px;
+	float: left;
+	margin-top:100px;
+	width: 280px;
+	height: 165px;
+	text-align: center;
+}	
+.servicefoto2{
+	margin-left: 85px;
+	float: left;
+	margin-top:100px;
+	width: 280px;
+	height: 165px;
+	text-align: center;
+}
+.servfototxt{
+	color:grey; 
+	font-size: 12pt;
+	font-family: timesnewroman;
+}
+
+/*ПРОСТО РАССЛАБЬТЕСЬ*/
+
+/*ПРОСТО РАССЛАБЬТЕСЬ:БЛОК*/
+.justrelax{
+	height:500px;
+	margin-top: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-image: url(justrelax/Background.png);
+}
+.textjr{
+	padding-left:150px;
+}
+.justrelaxlog{
+	font-weight: bold;
+	color: white;
+	 font-size: 24pt;
+	  padding-top:50px;
+
+}
+.justrelaximg{
+	width: 24px; 
+	height: 24px; 
+	float: left;
+}
+
+/*ПРОСТО РАССЛАБЬТЕСЬ:Наведение на блок*/
+div.justrelax:hover{
+	background-image: url(justrelax/BackgroundHover.png)
+}
+/*ПРОСТО РАССЛАБЬТЕСЬ:ШЕСТЕРНЯ*/
+img.halfgear{
+	width:150px;
+	height: 300px;
+	margin-left: 150px;
+	margin-top: 100px;
+	float: left;
+	text-align: left;
+	vertical-align: middle;
+}
+img.jrbg{
+	width: 78%;
+	margin-top: none;
+}
+.jstrlxtxt{
+	margin-left: 20px;
+	 float: left; 
+	 color:rgb(204,204,204);
+	 font-family: Roboto Slab; font-size: 14pt;
+}
+.blockblock{
+	margin-top: 10px;
+	height: 24px;
+}
+/*ПРОСТО РАССЛАБЬТЕСЬ:КНОПКА*/
+.button2{
+	background-color: green;
+	color: white;
+	width: 200px;
+	height: 50px; 
+	border-radius: 30px;
+	margin-top: 100px;
+	border: none;
+	font-weight: bold;
+	margin-left: -270px;
+}
+/*ПРОСТО РАССЛАБЬТЕСЬ:КНОПКА:НАВЕДЕНИЕ*/
+ .button2:hover{
+	background-color: white;
+	color:black;
+}
+
+/*ПОСЛЕДНИЕ ПРОЕКТЫ*/
+
+/*Загаловок*/
+.ltsproj{
+	width: 100%;
+	height: 700px;
+}
+.lstprojlogo{
+	font-weight:bolder;
+	padding-top: 110px;
+	font-size: 40pt;
+}
+.jstproin{
+	color:grey;
+	font-size: 9pt;
+	width: 410px;
+}
+/*Текст*/
+.ltsproj2{
+	width:390px;
+	height: 120px;
+	margin-left: 75px;
+	color: black;
+	font-weight: bold;
+}
+.lstproin{
+	color:grey; 
+	font-size: 10pt;
+}
+/*Блок с картинками*/
+.lspr3{
+	margin-left: 75px;
+	width: 500px;
+	height: 222px;
+}
+/*View Details*/
+.viewdetails{
+	width: 140px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 75px;
+	font-size: 12pt;
+	float: left;
+	color: green;
+	font-weight: bold;
+	text-decoration:none;
+
+}
+/*View Details:наведение*/
+.viewdetails:hover{
+	color: black;
+
+}
+/*ПОСЛЕДНИЕ ПРОЕКТЫ:Стрелка*/
+.arrow{
+	float: right;
+	width: 25px;
+	height: 20px;
+	background-image: url(lasrproject/Arrow-Right.png);
+	background-size: 100%;
+
+}
+.arrow:hover{
+		background-image: url(lasrproject/Arrow-RightHover.png);
+		background-size: 100%;
+}
+/*ПОСЛЕДНИЕ ПРОЕКТЫ:Планшет*/
+.Ipad{
+	width: 500px;
+	height: 450px;
+	float: right;
+	margin-top: -300px;
+	background:url(lasrproject/Ipad.png) no-repeat;
+	background-size: 100%;
+}
+/*ПОСЛЕДНИЕ ПРОЕКТЫ:Наведение на планшет*/
+div.Ipad:hover{
+	background:url(lasrproject/IpadHover.png)no-repeat;
+	background-size: 100%;
+}
+/*Культура и значения*/
+.culture{
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 550px;
+}
+.culturelogo{
+	font-size: 40pt;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 80px;
+}
+.crugi{
+	height: 500px;
+	margin-top: 100px;
+	margin-left: 175px;
+}
+/*Культура и значения: музыка*/
+.music{
+	width: 280px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+/*Культура и значения: линии*/
+.line{
+	margin-top:45.5px; 
+	margin-left: -50px;
+	float: left;
+
+}
+.line1{
+	width: 175px;
+	float: left;
+}
+/*Культура и значения: график и звезда*/
+.graphistar{
+	margin-left: -50px;
+	width: 280px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+/*Культура и значения: текст у блоков*/
+.musicgraphistartext{
+	width: 280px;
+	margin-top: 10px;
+	float: left;
+	font-weight: bold;
+	font-size: 14pt;
+}
+/*Культура и значения: текст под загаловком*/
+.text2{
+	width: 280px;
+	color:grey;
+	font-size: 12pt;
+	font-family: timesnewroman;
+	margin-top: 35px;
+
+}
+/*Отзывы*/
+/*БЛОК*/
+.Clients{
+	width: 100%;
+	height: 800px;
+}
+/*Заголовок*/
+.clientlogo{
+	font-size: 40pt;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+
+/*ОТЗЫВ:ПЕРВЫЙ КЛИЕНТ*/
+
+/*БЛОК*/
+.client1{
+	width: 500px; 
+	height: 250px;
+}
+
+/*ПЕРВЫЙ КЛИЕНТ:АВАТАРКА*/
+.client1ava{
+	margin-top: 200px;
+	margin-left: 100px;
+	width: 200px; 
+	height: 200px;
+	background:	#d5d7d6;
+	border-radius: 50%;
+}
+/*ПЕРВЫЙ КЛИЕНТ:БЛОК С ТЕКСТОМ*/
+.client1text{
+	padding-top: 15px;
+	padding-left: 15px;
+	margin-left: 400px;
+	margin-top: -150px;
+	height:100px;
+	width:500px;
+	position:relative;
+	background-color:#d5d7d6;
+	color: #808080;
+}
+/*ПЕРВЫЙ КЛИЕНТ:БЛОК С ТЕКСТОМ:ТРЕУГОЛЬНИЧЕК*/
+.client1text:before{
+	content: ''; 
+    position: absolute;
+    left: -40px; top: 30px;
+	border: 30px solid transparent;	
+	border-right: 25px solid #d5d7d6;
+	z-index: -100;
+}
+
+/*ОТЗЫВ:ВТОРОЙ КЛИЕНТ*/
+
+/*БЛОК*/
+.client2{
+	margin-right: 100px;
+	float: right;
+	width: 1200px;
+	height: 400px;
+}
+/*ВТОРОЙ КЛИЕНТ:АВАТАРКА*/
+.client2ava{
+	float: right;
+	width: 200px; 
+	height: 200px;
+	background:	#d5d7d6;
+	border-radius: 50%;
+}
+/*ВТОРОЙ КЛИЕНТ:БЛОК С ТЕКСТОМ*/
+.client2text{
+	float: right;
+	padding-top: 15px;
+	padding-left: 15px;
+	margin-right: 100px;
+	margin-top: 40px;
+	height:100px;
+	width:500px;
+	position:relative;
+	background-color:#d5d7d6;
+	color: #808080;
+}
+/*ВТОРОЙ КЛИЕНТ:БЛОК С ТЕКСТОМ:ТРЕУГОЛЬНИЧЕК*/
+.client2text:before{
+	content: ''; 
+    position: absolute;
+    right: -40px; top: 30px;
+	border: 30px solid transparent;	
+	border-left: 25px solid #d5d7d6;
+	z-index: -100;
+}
+
+
+/*ПОГОВОРИТЬ*/
+.talk{
+	padding-top: 30px;
+	float: left;
+	margin-top: 50px;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 24pt;
+	background-color: green;
+}
+/*ПОГОВОРИТЬ:КНОПКА*/
+.button3{
+background-color: green;
+	color: white;
+	width: 200px;
+	height: 50px; 
+	border-radius: 15px;
+	float: center;
+	margin-top: 20px;
+	font-weight: bold;
+	border: 3px solid white;
+}
+/*ПОГОВОРИТЬ:КНОПКА:НАВЕДЕНИЕ*/
+.button3:hover{
+	background-color: white;
+	color: green;
+}
+
+
+/*Логотипы*/
+.wordpress{
+	float: left;
+	margin-top:50px;
+	height: 150px;
+	margin-left: 125px;
+}
+.wordfoto{
+	margin-left: 75px;
+}
+
+
+/* Верхний футер */
+.TopFooter{
+	 background-color: black;
+	 color: white;
+	 float: left;
+	 width: 100%;
+	 height: 500px;
+	 margin-top: 50px;
+}
+/* Верхний футер:лево*/
+.topleft{
+	width: 130px;
+	height: 450px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+/*ПРОСТО ХРЕНЬ ЧТОБЫ РЕГУЛИРОВАТЬ ПРОЩЕ БЫЛО ОТСТУПЫ*/
+.me{
+	margin-top: 25px;
+}
+
+/*ВТОРАЯ ХРЕНЬ ДЛЯ ОТСТУПОВ*/
+
+/*БЛОКИ С ТЕКСТОМ*/
+.toptext{
+	margin-left: 50px;
+}
+/* Верхний футер:середина*/
+.topcenter{
+	width: 150px;
+	height: 450px;
+	float: left;
+	margin-left: 300px;
+	margin-top: 25px;
+}
+.midlletext{
+	color: white;
+	margin-left: 40px;
+}
+.midlletext:hover{
+	color:green;
+}
+/* Верхний футер:право*/
+.topright{
+	width: 250px;
+	height: 450px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 300px;
+}
+/*Надпись "Сколько времени назад сделан твит*/
+.podtwit2{
+	font-size: 10pt;
+}
+/*Отступ текста от картинки твиттера*/
+.me1{
+	margin-left: 40px;
+}
+/*Свойства самого текста при наведении*/
+.midlletext1{
+	margin-top: 25px;
+	color: white;
+}
+.midlletext1:hover{
+	color:green;
+}
+
+/*Футер*/
+footer{
+	background-color: white;
+	float: left;
+	width: 100%;
+	height: 100px;
+}
+.botfooter{
+	height: 150px;
+}
+/*Текст*/
+.botfootertext{
+	margin-top: 20px;
+	float: left;
+	width: 600px;
+	text-align: center;
+	color: #707070;
+}
+/*Картинки*/
+#botfooterimg1{
+	margin-top: 10px;
+	float: left;
+	height: 41px;
+	width: 41px;
+	background-image: url(footer/Twitter1.png);
+}
+#botfooterimg2{
+	margin-top:10px;
+	margin-left: 10px;
+	float: left;
+	height: 41px;
+	width: 41px;
+	background-image: url(footer/Facebook1.png);
+}
+#botfooterimg3{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	height: 41px;
+	width: 41px;
+	background-image: url(footer/Pinterest1.png);
+}
+#botfooterimg4{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	height: 41px;
+	width: 41px;
+	background-image: url(footer/Google+1.png);
+}
+/*Наведение на картинки*/
+#botfooterimg1:hover{
+background-image: url(footer/TwitterHover.png);	
+}
+#botfooterimg2:hover{
+background-image: url(footer/FacebookHover.png);	
+}
+#botfooterimg3:hover{
+background-image: url(footer/PinterestHover.png);	
+}
+#botfooterimg4:hover{
+background-image: url(footer/Google+Hover.png);	
+}
+
+/*Теперь будем делать адаптацию*/
+
+/*до 400px*/
+/*Старые значения в самом верху а это он не принимает*/
+
+@media screen and (min-width: 300px) {
+	
+	.sticky{
+		width: 100%;
+		height:  300px;
+	}
+	.mainlogo{
+		width: 400px;
+		float: left;
+		height: 100px;
+		margin-left: 270px;
+		font-size: 40pt;
+	}
+	.mainlogoimg{
+		width: 60px;
+		height: 60px;
+	}
+	.mainlogotext{
+		float: none;
+	}
+	.shapka1{
+		margin-top: 20px;
+		float: left;
+		width: 100%;
+		font-size: 28pt;
+		margin-left: 0px;
+	}
+	.podshapka,.podshapka2{
+		width: 80px;
+		float: left;
+		margin-left:  70px ;
+		font-size: 24pt;
+		margin-top: 20px
+	}
+	.podshapka2{
+		width: 150px;
+	}
+	/*PORTFOLIO */
+	.PORTFOLIO{
+		height: 600px;
+	}
+	.portfoliotxt{
+		font-size: 46pt;
+	}
+	.button1{
+		width: 300px;
+		height: 80px;
+		font-size: 18pt;
+	}
+	.portfolioproin{
+		font-size: 24pt;
+	}
+	/* ProfServ */
+	.ProfService{
+		height: 1000px;
+	}
+	.profserv{
+		font-size: 46pt;
+	}
+	.profservproin{
+		 font-size: 20pt;
+	}
+	.servfotoimg{
+		width:100px; 
+		height:80px;
+	}
+	.servicefoto, .servicefoto1, .servicefoto2{
+		font-size: 16pt;
+		margin-left: 120px;
+		margin-top: 50px;
+		width: 500px;
+		height: 300px;
+	}
+	.profservlogo{
+		font-size: 24pt;
+		margin-bottom: 10px;
+	}
+	.servfototxt{
+		font-size: 18pt;
+	}
+	/* RELAX */
+	.relax{
+		margin-top:100px ;
+		height: 600px;
+	}
+	img.halfgear{
+		height: 325px;
+		margin-top: 150px;
+		margin-left: 50px;
+	}
+	.justrelax {
+		height: 600px;
+		padding-left: 50px;
+		margin-left: 200px;
+	}
+	.textjr{
+		padding-left: 50px;
+	}
+	.button2{
+		margin-top: 100px;
+		width: 300px;
+		height: 80px;
+		font-size: 18pt;
+	}
+.justrelaxlog{
+		font-size: 28pt;
+	}
+	.jstproin{
+		font-size: 14pt;
+		width: 500px;
+	}
+	.justrelaximg{
+		width: 40px;
+		height: 40px;
+	}
+	.blockblock{
+		margin-top: 25px;
+	}
+	.jstrlxtxt{
+		font-size: 22pt;
+	}
+	/*LAST PROJECT*/
+	.lstprojlogo{
+		font-size: 48pt;
+	}
+	
+	}
+	
+	@media screen and (min-width: 1900px){
+		.sticky{
+			background-color: white;
+			margin-top: 0px;
+		}
+		.PORTFOLIO{
+			margin-top: 300px;
+		}
+		.mainlogotext{
+			margin-top: 10px;
+			font-size: 18pt;
+		}
+		.ProfService{
+			height: 300px;
+		}
+	}
